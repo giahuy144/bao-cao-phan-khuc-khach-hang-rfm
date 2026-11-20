@@ -1,13 +1,16 @@
-﻿.venv/
+﻿# Bỏ qua môi trường ảo Python
+.venv/
 venv/
-__pycache__/
-.ipynb_checkpoints/
-.pytest_cache/
-.env
-*.log
-.DS_Store
 
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+# Bỏ qua toàn bộ dữ liệu nặng (Parquet, CSV lớn)
+data/raw/*.parquet
+data/processed/*.parquet
+data/clean/*.parquet
+*.parquet
+
+# Bỏ qua file tạm của Jupyter và Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
