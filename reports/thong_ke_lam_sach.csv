@@ -1,0 +1,5 @@
+﻿Buoc,So_dong,So_khach_hang
+0. Dữ liệu gốc ban đầu,15453651,1007704
+1. Sau khi loại bỏ null khóa chính & ngày,15453651,1007704
+2. Sau khi loại bỏ khóa mồ côi,15453651,1007704
+3. Sau khi lọc price > 0,15453651,1007704
